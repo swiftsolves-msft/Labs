@@ -1,4 +1,4 @@
-# API Attack Testing Lab Environment
+# API Secure Testing Lab Environment
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fswiftsolves-msft%2FLabs%2Fmaster%2FAPI%20Attack%20Lab%azuredeploy.json)
 
 
