@@ -21,7 +21,7 @@
         "type": "string",
         "defaultValue": "someone@domain.com",
         "metadata": {
-          "description": "API publisherrs email address"
+          "description": "API publishers email address"
         }
       },
       "location": {
