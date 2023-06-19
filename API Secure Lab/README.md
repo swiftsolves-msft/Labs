@@ -2,7 +2,7 @@
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fswiftsolves-msft%2FLabs%2Fmain%2FAPI%20Secure%20Lab%2Fazuredeploy.json)
 
 
-This ARM deployment includes everything needed to test Defender for API components.
+This ARM deployment includes everything needed to test Defender for API components. HatTip to [erev0s](https://erev0s.com/) for the awesome API App, Docker Image, and blogs [here](https://erev0s.com/blog/vampi-vulnerable-api-security-testing/) and [here](https://erev0s.com/blog/vampi-against-automated-api-scanning/)
 
 - A Docker image of [VAmPI](https://github.com/erev0s/VAmPI) running in a Azure Container Instance on port: 5000
 - Azure API Management Service
