@@ -1,4 +1,4 @@
-# Onboarding Defender for API Lab Module 1
+# Module 1 - Onboarding Defender for API
 
 ### Avg Config Time: 5 mins
 
