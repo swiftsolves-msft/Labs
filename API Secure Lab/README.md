@@ -12,6 +12,8 @@ This ARM deployment includes everything needed to test Defender for API componen
 
 ## Post Deployment Steps:
 
+### Avg Config Time: 5 mins
+
 1. Ensure Defender for API is turned on
 2. Download the [openapi3.json](https://raw.githubusercontent.com/swiftsolves-msft/Labs/main/API%20Secure%20Lab/openapi3.json) file locally
 3. Open APIM Service, APIs blade, + Add API, Create from definition OpenAPI... ![addapidef](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/addapidef.png)
