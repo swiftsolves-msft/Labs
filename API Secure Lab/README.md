@@ -8,6 +8,8 @@ This ARM deployment includes everything needed to test Defender for API componen
 - A Docker image of [VAmPI](https://github.com/erev0s/VAmPI) running in a Azure Container Instance on port: 5000
 - Azure API Management Service
 
+### Avg Deployment Time: 68 mins
+
 ## Post Deployment Steps:
 
 1. Ensure Defender for API is turned on
