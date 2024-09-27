@@ -1,4 +1,4 @@
-# API Secure Testing Lab Module 1
+# Onboarding Defender for API Lab Module 1
 
 ### Avg Config Time: 5 mins
 
