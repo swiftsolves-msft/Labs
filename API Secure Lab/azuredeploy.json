@@ -24,6 +24,19 @@
           "description": "API publishers email address"
         }
       },
+        "DockerUser": {
+            "defaultValue": "someone@domain.com",
+            "type": "String",
+            "metadata": {
+                "description": "Docker Hub Username"
+            }
+        },
+        "DockerPass": {
+            "type": "SecureString",
+            "metadata": {
+                "description": "Docker Hub Password"
+            }
+        },
       "location": {
         "type": "string",
         "defaultValue": "[resourceGroup().location]",
@@ -106,6 +119,13 @@
             }
           ],
           "osType": "Linux",
+          "imageRegistryCredentials": [
+              {
+                  "server": "index.docker.io",
+                  "username": "[parameters('DockerUser')]",
+                  "password": "[parameters('DockerPass')]"
+              }
+          ],
           "restartPolicy": "[parameters('restartPolicy')]",
           "ipAddress": {
             "type": "Public",
