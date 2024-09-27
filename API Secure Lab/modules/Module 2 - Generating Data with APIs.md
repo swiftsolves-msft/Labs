@@ -1,4 +1,4 @@
-# Generating Data with APIs Lab Module 2
+# Module 2 - Generating Data with APIs
 
 ### Avg Config Time: 5 mins
 
