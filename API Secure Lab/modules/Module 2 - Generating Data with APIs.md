@@ -1,6 +1,6 @@
 # Module 2 - Generating Data with APIs
 
-### Avg Config Time: 5 mins
+### Avg Test Time: 15 mins
 
 ## Script based interaction with APIs
 
