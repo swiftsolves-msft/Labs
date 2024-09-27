@@ -20,9 +20,13 @@ While unauthenticaed we will retrieve all the books in vampi![retrivebookspostma
 
 Create a new login so you can get a bearer token to authenticate against future APIs![generateuserpostman](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/generateuserpostman.png) 
 
-Login with the user/password created to obtain bearer token![logintogettoken](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/logintogettoken.png) 
+Login with the user/password created to obtain bearer token, be sure to copy the 'auth_token' value from the response![logintogettoken](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/logintogettoken.png) 
 
+Next go to the API 'Add a New Book' switch the tab to Authorization and drop down to beaer and put in the copied value from above![auth](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/auth.png) 
 
+Switch to the body tab and create a new book title for the secret use [CCGenerator](https://randommer.io/Card) and place in secret and send the request![addabook](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/addabook.png) 
+
+Finally we will retrieve the specific book title API again we will need to update the Authorization to the Bearer Token, and in the URI put in and replace the book title, be sure not to pass in ':'
 
 ## Defender for API Enable and Enroll:
 
