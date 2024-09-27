@@ -1,5 +1,7 @@
 # API Secure Testing Lab Module 1
 
+### Avg Config Time: 5 mins
+
 ## Defender for API Enable and Enroll:
 
 1. Ensure Defender for API is turned on - Defender for Cloud, Environment Settings, select Azure Subscription, Defender Plans, turn on APIs, and Save.![defapiplan](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/defapiplan.png)
