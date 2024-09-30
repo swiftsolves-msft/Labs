@@ -26,4 +26,10 @@ Next go to the API 'Add a New Book' switch the tab to Authorization and drop dow
 
 Switch to the body tab and create a new book title for the secret use [CCGenerator](https://randommer.io/Card) and place in secret and send the request![addabook](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/addabook.png) 
 
+an example of the json payload to create the book could be:
+```{
+  "book_title": "visa",
+  "secret": "4935327716890354,05/2029,456,Joud Heron,8357"
+}```
+
 Finally we will retrieve the specific book title API again we will need to update the Authorization to the Bearer Token, and in the URI put in and replace the book title, be sure not to pass in ':'![retrievebook](https://github.com/swiftsolves-msft/Labs/raw/main/API%20Secure%20Lab/images/retrievebook.png) 
