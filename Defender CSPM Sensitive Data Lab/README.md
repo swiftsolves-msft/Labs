@@ -6,6 +6,6 @@
 2. Create a storage account and container and upload Patientoutcomes.txt from sampledata
 3. WIP - purview IP, and Sensitive Infromation type 
 4. Create Custom SIT
-``` \d{4}-\d{4}-\d{2}\d{2}\d{2}$ ```
+5. Use this regex pattern ``` \d{4}-\d{4}-\d{2}\d{2}\d{2}$ ```
 5. Test out pattern for custom SIT
-6. wait and then select and save in Defender for Cloud Enviroment Settings Data Sensitivity under Custom choose Medical Record Number.
+6. Wait and then select and save in Defender for Cloud Enviroment Settings Data Sensitivity under Custom choose Medical Record Number.
