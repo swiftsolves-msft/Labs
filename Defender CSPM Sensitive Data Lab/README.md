@@ -1,4 +1,4 @@
-# Defender CSPM Sensitive Data Lab
+# *WIP - Defender CSPM Sensitive Data Lab
 
 ### Avg Config Time: 5 mins
 
